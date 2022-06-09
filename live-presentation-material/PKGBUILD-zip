@@ -1,0 +1,26 @@
+pkgname="mygame"
+pkgdesc="Terminal space shooter game written in C++"
+pkgver="1.0.0"
+pkgrel=1
+arch=("x86_64")
+url="https://github.com/Cooldude069/Mygame"
+
+makedepends=("gcc")
+
+source=("https://github.com/Cooldude069/$pkgname/archive/refs/tags/$pkgver.zip")
+
+sha256sums=("8a8c317b4919cd943589eed88e5437ec1e1a1fe06735e1429afa0c0bed8c4be1")
+
+build() {
+	cd "Mygame-$pkgver"
+
+	g++ src/main.cpp -o "$pkgname"
+}
+
+package() {
+	echo $PWD
+
+	mkdir -p "$pkgdir/usr/bin"
+
+	cp "Mygame-$pkgver/$pkgname" "$pkgdir/usr/bin"
+}
