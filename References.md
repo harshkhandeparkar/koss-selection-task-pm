@@ -1,0 +1,17 @@
+### References
+- https://en.wikipedia.org/wiki/Package_manager
+- https://en.wikipedia.org/wiki/List_of_software_package_management_systems#Linux
+- https://wiki.archlinux.org/title/pacman
+- https://wiki.archlinux.org/title/Official_repositories
+- https://wiki.archlinux.org/title/Arch_User_Repository
+- https://wiki.archlinux.org/title/Arch_Build_System
+- https://wiki.archlinux.org/title/Creating_packages
+- https://wiki.archlinux.org/title/PKGBUILD
+- https://wiki.archlinux.org/title/VCS_package_guidelines
+- https://man.archlinux.org/man/core/pacman/pacman.conf.5.en
+- https://linuxconfig.org/comparison-of-major-linux-package-management-systems
+- https://www.linuxfordevices.com/tutorials/centos/dnf-command
+- https://computingforgeeks.com/install-and-manage-flatpak-applications-on-linux/
+- https://docs.flatpak.org/en/latest/flatpak-command-reference.html#flatpak-update
+- https://access.redhat.com/articles/yum-cheat-sheet
+- https://www.omgubuntu.co.uk/2016/12/simple-guide-snapd-commands
